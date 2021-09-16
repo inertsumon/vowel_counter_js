@@ -59,6 +59,9 @@ function clicked(input) {
     else if (inputText === "Q") {
         output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Quraan</h4>`;
     }
+    else if (inputText === "R") {
+        output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Red Color</h4>`;
+    }
     else if (inputText === "S") {
         output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Student</h4>`;
     }
@@ -83,9 +86,7 @@ function clicked(input) {
     else if (inputText === "Z") {
         output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Zack</h4>`;
     }
-    else if (inputText === "R") {
-        output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Red Color</h4>`;
-    }
+    
     
  
 }
