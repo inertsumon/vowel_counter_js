@@ -83,6 +83,9 @@ function clicked(input) {
     else if (inputText === "Z") {
         output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Zack</h4>`;
     }
+    else if (inputText === "R") {
+        output.innerHTML = `<h4 class="text-primary fw-bold p-2">${inputText} for Red Color</h4>`;
+    }
     
  
 }
