@@ -29,4 +29,8 @@ hr {
   margin: 10px;
   background-color: tomato;
   font-size: 30px;
+  border-radius: 5px;
+}
+.break {
+  word-wrap: break-word;
 }
